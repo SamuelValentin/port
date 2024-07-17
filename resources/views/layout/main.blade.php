@@ -14,9 +14,8 @@
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-900 text-white">
+    @include('components.navbar')
     <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
-        @include('components.navbar')
-
         @yield('content')
     </main>
 </body>
