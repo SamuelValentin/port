@@ -5,20 +5,20 @@
         <div class="relative z-20 max-w-screen-lg mx-auto grid grid-cols-12 h-full items-center">
             <div class="col-span-6">
                 {{-- <span class="uppercase text-white text-xs font-bold mb-2 block">Samuel Valentin</span> --}}
-                <h1 class="text-white font-extrabold text-5xl mb-8">Criando Ideias</h1>
+                <h1 class="text-white font-extrabold text-5xl mb-8">{{__('home.Banner-title')}}</h1>
                 <p class="text-stone-100 text-base">
-                    Construindo o futuro da web, uma linha de código por vez, mantendo-se atualizado com as tendências e inovações do mercado
+                    {{__('home.Banner-text')}}
                 </p>
-                <button class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button>
+                {{-- <button class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button> --}}
             </div>
         </div>
     </div>
 
-    <div class="bg-slate-10 py-20">
+    {{-- <div class="bg-slate-10 py-20">
         <div class="max-w-screen-lg mx-auto flex justify-between items-center">
             <div class="max-w-xl">
                 <h2 class="font-black text-sky-50 text-3xl mb-4">Qual o objetivo desta página</h2>
-                <p class="text-base text-sky-50">Com as constantes mudanças do mercado de trabalho, é importante estar sempre atualizado e por dentro nas novas tecnologias. Sendo assim, como um meio de demonstrar as minhas capacidades e também praticar, tive a ideia de criar esta pagina. Assim, fica claro o que eu posso fazer</p>
+                <p class="text-base text-sky-50">Com as constantes mudanças do mercado de trabalho, é importante estar sempre atualizado e por dentro nas novas tecnologias. Sendo assim, como um meio de demonstrar as minhas capacidades e também praticar, tive a ideia de criar esta pagina. Assim, fica claro o que eu posso fazer de acordo com minhas habilidades.</p>
             </div>
             <div class="w-full flex flex-col items-end pr-16">
                 <div class="h-full mt-auto overflow-hidden relative">
@@ -26,39 +26,38 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
-    <div class="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md p-5">
-        <img class="w-32 h-32 rounded-full mx-auto" src="images/profiler.jpg" alt="Profile picture">
+    {{-- <div class="max-w-lg mx-auto my-10 bg-sky-950 rounded-lg shadow-md p-5 pr-10">
+        <img class="w-32 h-32 rounded-full mx-auto" src="images/profile3.png" alt="Profile picture">
         <h2 class="text-center text-2xl font-semibold mt-3">Samuel Valentin</h2>
-        <p class="text-center text-gray-600 mt-1">Desenvolvedor Web Fullstack</p>
-        <div class="flex justify-center mt-5">
-            <a href="#" class="text-blue-500 hover:text-blue-700 mx-3">Twitter</a>
-            <a href="#" class="text-blue-500 hover:text-blue-700 mx-3">LinkedIn</a>
-            <a href="#" class="text-blue-500 hover:text-blue-700 mx-3">GitHub</a>
-        </div>
-        <div class="mt-5">
+        <p class="text-center text-gray-200 mt-1">{{__('home.Personal-cargo')}}</p>
+        <div class="mt-5 text-center">
             <h3 class="text-xl font-semibold">Bio</h3>
-            <p class="text-gray-600 mt-2">Samuel é um desenvolvedor de sistemas web, full-stack, formas em sistemas de informação pela UTFPR, 25 anos e casado.</p>
+            <p class="text-gray-200 mt-2">{{__('home.Personal-bio')}}</p>
         </div>
-    </div>
+    </div> --}}
 
     <div class="py-12 relative overflow-hidden bg-gray-900">
         <div class="grid grid-cols-2 max-w-screen-lg mx-auto">
             <div class="w-full flex flex-col items-end pr-16">
-                <h2 class="text-[#64618C] font-bold text-2xl max-w-xs text-right mb-12 mt-10">Whether you need Assistance</h2>
-                <div class="h-full mt-auto overflow-hidden relative">
-                    <img src="https://picsum.photos/800/600" class="h-full w-full object-contain" alt="">
+                <div class="max-w-lg mx-auto my-10 bg-sky-950 rounded-lg shadow-md p-5 pr-10">
+                    <img class="w-32 h-32 rounded-full mx-auto" src="images/profile3.png" alt="Profile picture">
+                    <h2 class="text-center text-2xl font-semibold mt-3">Samuel Valentin</h2>
+                    <p class="text-center text-gray-200 mt-1">{{__('home.Personal-cargo')}}</p>
+                    <div class="mt-5 text-center">
+                        <h3 class="text-xl font-semibold">Bio</h3>
+                        <p class="text-gray-200 mt-2">{{__('home.Personal-bio')}}</p>
+                    </div>
                 </div>
             </div>
-
             <div class="py-20 bg-slate-100 relative before:absolute before:h-full before:w-screen before:bg-sky-950 before:top-0 before:left-0">
                 <div class="relative z-20 pl-12">
-                    <h2 class="text-[#f7d0b6] font-black text-5xl leading-snug mb-10">Entre em contato</h2>
-                    <p class="text-white text-sm">
-                    Purus in massa tempor nec. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Faucibus ornare suspendisse sed nisi lacus sed viverra. Diam in arcu cursus euismod quis viverra nibh cras pulvinar.
+                    <h2 class="text-[#f7d0b6] font-black text-4xl leading-snug mb-10">{{__('home.Goal-title')}}</h2>
+                    <p class="text-white text-md">
+                        {{__('home.Goal-text')}}
                     </p>
-                <button class="mt-8 text-white uppercase py-3 text-sm px-10 border border-white hover:bg-white hover:bg-opacity-10">Talk with expert</button>
+                {{-- <button class="mt-8 text-white uppercase py-3 text-sm px-10 border border-white hover:bg-white hover:bg-opacity-10">Talk with expert</button> --}}
                 </div>
             </div>
         </div>
@@ -73,11 +72,11 @@
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 21h-3l1-3h1l1 3zm-12.976-4.543l8.976-4.575v6.118c-1.007 2.041-5.607 3-8.5 3-3.175 0-7.389-.994-8.5-3v-6.614l8.024 5.071zm11.976.543h-1v-7.26l-10.923 5.568-11.077-7 12-5.308 11 6.231v7.769z"/></svg>
                     </div>
                     <div class="flex-grow">
-                        <h2 class="text-gray-300 text-lg title-font font-medium mb-1">Trajetória Acadêmica - UTFPR</h2>
+                        <h2 class="text-gray-300 text-lg title-font font-medium mb-1">{{__('home.Experiences-title-1')}}</h2>
                         <p class="text-sm text-gray-400 mb-2">2018 - 2023</p>
-                        <p class="leading-relaxed text-base mb-1">Durante minha graduação pude aprender os conceitos da programação praticamente do zero. Neste periodo lidei com programação basico, Orientação a Objetos, Banco de Dados, Analise de algoritmos, processamento de imagens, sistemas distribuidos, gestão de projetos, comportamento humano, Linguagem C, C++, Java, Python e php</p>
-                        <p class="text-sm text-gray-400 mb-1">Meu TCC</p>
-                        <p class="leading-relaxed text-base">Durante a escolha de temas para realizar meu tcc, algo que sempre me chamou a atenção foi na segurança de dados, e um tema muito atual ali no ano de 2022 era a LGPD. Assim, foram alguns meses de pesquisa no tema até chegar no recorte final resumido no titulo:  <strong>"Estudo de caso: exemplo de aplicação da anonimização em uma empresa pública baseado na LGPD"</strong>.</p>
+                        <p class="leading-relaxed text-base mb-1">{{__('home.Experiences-text-1')}}</p>
+                        <p class="text-sm text-gray-400 mb-1">{{__('home.Experiences-sub-title-tcc')}}</p>
+                        <p class="leading-relaxed text-base">{{__('home.Experiences-text-tcc')}}:  <strong>"{{__('home.Experiences-title-tcc')}}"</strong>.</p>
                     </div>
                     <div class="flex mt-1">
                         <div class="flex flex-col">
@@ -123,8 +122,8 @@
                     </div>
                     <div class="flex-grow">
                         <h2 class="text-gray-300 text-lg title-font font-medium mb-1">Mobou</h2>
-                        <p class="text-sm text-gray-400 mb-2">2020 - atualmente</p>
-                        <p class="leading-relaxed text-base">Durante a pandemia no ano de 2020, começamos este projeto com o objetivo de construir plataformas que integrassem chatbots com web. Aqui trabalhamos com o Laravel para construir a plataforma, mas utilizamos tecnlogias com dialog flow, typebo e outros para integras agentes inteligentes que pudessem ser integrados em nossas plataformas. Assim, conseguimos automatizar e auxiliar nossos cliente no mundo digital.</p>
+                        <p class="text-sm text-gray-400 mb-2">2020 - {{__('home.Atualmente')}}</p>
+                        <p class="leading-relaxed text-base">{{__('home.Experiences-text-2')}}</p>
                     </div>
                     <div class="flex mt-1">
                         <div class="flex flex-col">
@@ -160,8 +159,8 @@
                     </div>
                     <div class="flex-grow">
                         <h2 class="text-gray-300 text-lg title-font font-medium mb-1">Hipe Innovation Center</h2>
-                        <p class="text-sm text-gray-400 mb-2">2023 - atualmente</p>
-                        <p class="leading-relaxed text-base">No segundo semestre de 2023, entrei nessa empresa como desenvolvedor Web e pude auxiliar em projetos com meus conhecimentos de programação usando Laravel. Aqui pude desenvolver ainda mais meus conhecimentos em Php, PhpUnit, Docker, Blade e javascript, além de aprender coisas novas como criação de macro para etiquetas CPCL e ZPL, gerenciamento de E-mails no laravel e Vue.js.</p>
+                        <p class="text-sm text-gray-400 mb-2">2023 - {{__('home.Atualmente')}}</p>
+                        <p class="leading-relaxed text-base">{{__('home.Experiences-text-3')}}</p>
                         {{-- <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -229,8 +228,8 @@
     <session class="my-6">
         <div class="grid sm:grid-cols-2 items-center mb-8 gap-16 p-8 mx-auto max-w-4xl bg-gray-800 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-gray-100 font-[sans-serif]">
             <div>
-                <h1 class="text-3xl font-extrabold">Entre em contato</h1>
-                <p class="text-sm text-gray-400 mt-3">Envie suas informações ou entre em contato e retornaremos assim que possivel.</p>
+                <h1 class="text-3xl font-extrabold">{{__('home.Contact-title')}}</h1>
+                <p class="text-sm text-gray-400 mt-3">{{__('home.Contact-text')}}</p>
                 <div class="mt-12">
                     <h2 class="text-lg font-extrabold">Email</h2>
                     <ul class="mt-3">
@@ -276,7 +275,7 @@
                 <textarea placeholder='Assunto' rows="6"
                     class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"></textarea>
                 <button type='button'
-                    class="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Enviar</button>
+                    class="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">{{__('home.Enviar')}}</button>
             </form>
         </div>
     </session>
