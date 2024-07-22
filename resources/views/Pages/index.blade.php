@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layouts.main')
 @section('content')
     <div class="w-screen h-screen overflow-hidden relative before:block before:absolute before:bg-black before:h-full before:w-full before:top-0 before:left-0 before:z-10 before:opacity-30">
         <img src="images/pexels-rpnickson-2647990.jpg" class="absolute top-0 left-0 min-h-full ob" alt="">
@@ -9,7 +9,7 @@
                 <p class="text-stone-100 text-base">
                     {{__('home.Banner-text')}}
                 </p>
-                {{-- <button class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button> --}}
+                <button href="{{ route('login') }}" class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button>
             </div>
         </div>
     </div>
