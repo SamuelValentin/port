@@ -20,7 +20,8 @@ return [
     'Atualmente' => 'atualmente',
     'Contact-title' => 'Entre em contato',
     'Contact-text' => 'Envie suas informações ou entre em contato e retornaremos assim que possivel.',
-    'Enviar' => 'Enviar'
+    'Enviar' => 'Enviar',
+    'About-title' => 'Sobre mim'
 ];
 
 ?>

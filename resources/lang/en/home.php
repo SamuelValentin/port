@@ -21,7 +21,8 @@ return [
     'Atualmente' => 'currently',
     'Contact-title' => 'Get in touch',
     'Contact-text' => 'Send your information or get in touch and we will get back to you as soon as possible.',
-    'Enviar' => 'Send'
+    'Enviar' => 'Send',
+    'About-title' => 'About Me'
 ];
 
 ?>
