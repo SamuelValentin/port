@@ -33,7 +33,6 @@
                 <p class="text-stone-100 text-base">
                     {{__('home.Banner-text')}}
                 </p>
-                <button href="{{ route('login') }}" class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button>
             </div>
         </div>
     </div>
