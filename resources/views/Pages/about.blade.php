@@ -57,7 +57,6 @@
                     <p class="text-white text-md">
                         {{__('home.Goal-text')}}
                     </p>
-                {{-- <button class="mt-8 text-white uppercase py-3 text-sm px-10 border border-white hover:bg-white hover:bg-opacity-10">Talk with expert</button> --}}
                 </div>
             </div>
         </div>
@@ -68,53 +67,45 @@
             <div class="max-w-md py-4 px-8 bg-sky-950 shadow-lg rounded-lg my-20 flex flex-col">
                 <div>
                     <h2 class="text-gray-100 text-3xl font-semibold">Sobre mim</h2>
-                    <p class="mt-2 text-gray-200">Formado em Sistemas de Informação pela Universidade Federal do Paraná (UTFPR). Atualmente desempenho atividades no campo do desenvolvimento de sistemas web, empregando o framework Laravel e realizando integrações com chatbots e outras plataformas. Minha trajetória acadêmica e experiência no mercado de trabalho convergiram para o aprimoramento das minhas competências em diversas tecnologias e ferramentas. Para além do meu engajamento presente, mantenho uma motivação intrínseca para explorar e dominar novas tecnologias, visando um contínuo crescimento profissional.</p>
+                    <p class="mt-2 text-gray-100">Formado em Sistemas de Informação pela Universidade Federal do Paraná (UTFPR). Atualmente desempenho atividades no campo do desenvolvimento de sistemas web, empregando o framework Laravel e realizando integrações com chatbots e outras plataformas. Minha trajetória acadêmica e experiência no mercado de trabalho convergiram para o aprimoramento das minhas competências em diversas tecnologias e ferramentas. Para além do meu engajamento presente, mantenho uma motivação intrínseca para explorar e dominar novas tecnologias, visando um contínuo crescimento profissional.</p>
                 </div>
             </div>
             <div class="max-w-md py-4 px-8 bg-sky-950 shadow-lg rounded-lg my-20 flex flex-col">
-                <div>
-                    <h2 class="text-gray-100 text-3xl font-semibold">Estudos</h2>
-                    <p class="mt-2 text-gray-200">Universidade Tecnológica Federal do Paraná
-                        Bacharelado em Sistemas de informação
-                        Início em Março de 2018
-                        Finalizado em Junho de 2023
-                        TCC: "CASE STUDY: APPLICATION EXAMPLE OF ANONYMIZATION IN A PUBLIC ENTERPRISE BASED ON LGPD."</p>
+                <h2 class="text-gray-100 text-3xl font-semibold">Conhecimentos</h2>
+                <div class="mt-2 text-gray-100">
+                    <ul>
+                        <li>Conhecimento em linguagens de programação como C, C++, JAVA, JavaScript e Python.</li>
+                        <li>Especialidade em PHP/Laravel.</li>
+                        <li>Experiência em Banco de Dados MySQL e PostgreSQL.</li>
+                        <li>Experiência em API RESTful.</li>
+                        <li>Experiência em documentação Swagger.</li>
+                        <li>Experiência em testes utilizando PHPUnit.</li>
+                        <li>Experiência em Docker.</li>
+                        <li>Experiência em front-end com HTML, CSS, framework Tailwind e Vue.js.</li>
+                        <li>Experiência em métodos ágeis como Scrum.</li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="grid grid-cols-2 max-w-screen-lg mx-auto">
             <div class="max-w-md py-4 px-8 bg-sky-950 shadow-lg rounded-lg my-20 flex flex-col">
-                <div>
-                    <h2 class="text-gray-100 text-3xl font-semibold">Carreira</h2>
-                    <div class="mt-2 text-gray-200">
-                        Desenvolvedor Laravel | PHP
-                        Mobou
-                        Desde junho de 2020
-                        Responsável por desenvolver e administrar sistemas web baseados em Laravel, com integrações de chatbots, além de interagir com clientes e equipes de desenvolvimento.
-
-                        HIPE Innovation Center
-                        Desde setembro de 2023
-                        Responsável por desenvolver, junto com a equipe, um sistema em Laravel, criando novos módulos e refatorando módulos antigos do sistema legado em Java
-                    </div>
+                <h2 class="text-gray-100 text-3xl font-semibold">Carreira</h2>
+                <div class="mt-2 text-gray-100">
+                    <strong>Desenvolvedor Laravel | PHP</strong> <br>
+                    <strong>Mobou</strong> <br>
+                    <span class="text-gray-400 whitespace-nowrap text-sm">Desde junho de 2020</span> <br>
+                    Responsável por desenvolver e administrar sistemas web baseados em Laravel, com integrações de chatbots, além de interagir com clientes e equipes de desenvolvimento.
+                    <br>
+                    <strong>HIPE Innovation Center</strong> <br>
+                    <span class="text-gray-400 whitespace-nowrap text-sm">Desde setembro de 2023</span> <br>
+                    Responsável por desenvolver, junto com a equipe, um sistema em Laravel, criando novos módulos e refatorando módulos antigos do sistema legado em Java
                 </div>
             </div>
             <div class="max-w-md py-4 px-8 bg-sky-950 shadow-lg rounded-lg my-20 flex flex-col">
-                <div>
-                    <h2 class="text-gray-100 text-3xl font-semibold">Conhecimentos</h2>
-                    <div class="mt-2 text-gray-200">
-                        <ul>
-                            <li>Conhecimento em linguagens de programação como C, C++, JAVA, JavaScript e Python.</li>
-                            <li>Especialidade em PHP/Laravel.</li>
-                            <li>Experiência em Banco de Dados MySQL e PostgreSQL.</li>
-                            <li>Experiência em API RESTful.</li>
-                            <li>Experiência em documentação Swagger.</li>
-                            <li>Experiência em testes utilizando PHPUnit.</li>
-                            <li>Experiência em Docker.</li>
-                            <li>Experiência em front-end com HTML, CSS, framework Tailwind e Vue.js.</li>
-                            <li>Experiência em métodos ágeis como Scrum.</li>
-                        </ul>
-                    </div>
-                </div>
+                <h2 class="text-gray-100 text-3xl font-semibold">Estudos</h2>
+                <p class="mt-2 text-gray-100 text-lg">Universidade Tecnológica Federal do Paraná | Bacharelado em Sistemas de informação </p>
+                <span class="text-gray-400 whitespace-nowrap text-sm">Março de 2018 - Junho de 2023</span>
+                <p><strong> TCC: "CASE STUDY: APPLICATION EXAMPLE OF ANONYMIZATION IN A PUBLIC ENTERPRISE BASED ON LGPD. </strong>"</p>
             </div>
         </div>
     </div>
