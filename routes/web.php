@@ -19,6 +19,10 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
 
+Route::get('/teste', function () {
+    return view('pages.teste');
+})->name('teste');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

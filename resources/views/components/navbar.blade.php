@@ -5,6 +5,7 @@
             <a href="{{ route('index') }}" class="{{ Request::is('/') ? 'text-gray-800 dark:text-gray-200 border-b-2 border-blue-500' : 'border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500' }} mx-1.5 sm:mx-6">home</a>
             <a href="{{ route('about') }}" class="{{ Request::is('about') ? 'text-gray-800 dark:text-gray-200 border-b-2 border-blue-500' : 'border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500' }} mx-1.5 sm:mx-6">{{__('home.Sobre')}}</a>
             <a href="{{ route('contact') }}" class="{{ Request::is('contact') ? 'text-gray-800 dark:text-gray-200 border-b-2 border-blue-500' : 'border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500' }} mx-1.5 sm:mx-6">{{__('home.Contato')}}</a>
+            <button id="theme-toggle">Toggle Theme</button>
         </div>
 
         <!-- Dropdown Button -->
@@ -43,6 +44,26 @@
 </nav>
 
 <script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const rootElement = document.documentElement;
+
+    toggleButton.addEventListener('click', () => {
+        if (rootElement.classList.contains('dark')) {
+            rootElement.classList.remove('dark');
+            localStorage.theme = 'light';
+        } else {
+            rootElement.classList.add('dark');
+            localStorage.theme = 'dark';
+        }
+    });
+
+    // Aplicar o tema baseado na preferência salva do usuário
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        rootElement.classList.add('dark');
+    } else {
+        rootElement.classList.remove('dark');
+    }
+
     // Dropdown menu
     document.getElementById('dropdownButton').addEventListener('click', function() {
         var dropdownMenu = document.getElementById('dropdownMenu');
