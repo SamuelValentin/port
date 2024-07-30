@@ -3,14 +3,14 @@
     <div class="w-screen h-screen overflow-hidden relative before:block before:absolute before:bg-black before:h-full before:w-full before:top-0 before:left-0 before:z-10 before:opacity-30">
         <img src="images/pexels-francesco-ungaro-2835436.jpg" class="absolute top-0 left-0 min-h-full ob block dark:hidden" alt="Light Mode Image">
         <img src="images/pexels-rpnickson-2647990.jpg" class="absolute top-0 left-0 min-h-full ob hidden dark:block" alt="Dark Mode Image">
-        <div class="relative z-20 max-w-screen-lg mx-auto grid grid-cols-12 h-full items-center">
-            <div class="col-span-6">
+        <div class="relative z-20 max-w-screen-lg mx-auto grid sm:grid-cols-12 h-full items-center">
+            <div class="sm:col-span-6 flex flex-col items-center sm:items-start">
                 {{-- <span class="uppercase text-white text-xs font-bold mb-2 block">Samuel Valentin</span> --}}
-                <h1 class="text-white font-extrabold text-5xl mb-8">{{__('home.Banner-title')}}</h1>
-                <p class="text-stone-100 text-base">
+                <h1 class="text-white font-extrabold text-5xl mb-8 text-center sm:text-left">{{__('home.Banner-title')}}</h1>
+                <p class="text-stone-100 text-base text-center sm:text-left">
                     {{__('home.Banner-text')}}
                 </p>
-                <button href="{{ route('login') }}" class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10">Get started</button>
+                {{-- <a href="{{ route('login') }}" class="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10 text-center sm:text-left">Get started</a> --}}
             </div>
         </div>
     </div>

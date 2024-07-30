@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Home' => 'Home',
     'Criando Ideias' => 'Creating Ideas',
     'Sobre' => 'About',
     'Habilidades' => 'Skills',
@@ -22,7 +23,30 @@ return [
     'Contact-title' => 'Get in touch',
     'Contact-text' => 'Send your information or get in touch and we will get back to you as soon as possible.',
     'Enviar' => 'Send',
-    'About-title' => 'About Me'
+    'About-title' => 'About Me',
+    //
+    'About-me' => 'About Me',
+    'resume-bio' => 'Graduated in Information Systems from the Federal University of Paraná (UTFPR). Currently, I work in the field of web systems development, employing the Laravel framework and integrating with chatbots and other platforms. My academic background and work experience have converged to enhance my skills in various technologies and tools. Beyond my current engagement, I maintain an intrinsic motivation to explore and master new technologies, aiming for continuous professional growth.',
+    'knowledges' => 'Knowledges',
+    'knowledges-dev' => 'Knowledge in programming languages such as',
+    'Speciality' => 'Specialty in',
+    'Experience' => 'Experience in',
+    'And' => 'and',
+    'Swagger' => 'Swagger documentation',
+    'BD' => 'Database',
+    'Front-resume' => 'front-end with HTML, CSS, Tailwind framework, and Vue.js.',
+    'Agile-Methodologies' => 'agile methodologies such as',
+    'Tests' => 'tests using PHPUnit.',
+    'Career' => 'Career',
+    'Mobou-resume' => 'Responsible for developing and managing web systems based on Laravel, with chatbot integrations, as well as interacting with clients and development teams.',
+    'Hipe-resume' => 'Responsible for developing, together with the team, a system in Laravel, creating new modules and refactoring old modules of the legacy system in Java.',
+    'Since' => 'Since June of',
+    'Developer' => 'Developer',
+    'Studies' => 'Studies',
+    'UTFPR-BSI' => 'Federal University of Technology - Paraná | Bachelor in Information Systems',
+    'UTFPR-duration' => 'March 2018 - June 2023',
+
+
 ];
 
 ?>

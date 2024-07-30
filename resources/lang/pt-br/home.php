@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Home' => 'Inicial',
     'Sobre' => 'Sobre',
     'Habilidades' => 'Habilidades',
     'Contato' => 'Contato',
@@ -21,7 +22,28 @@ return [
     'Contact-title' => 'Entre em contato',
     'Contact-text' => 'Envie suas informações ou entre em contato e retornaremos assim que possivel.',
     'Enviar' => 'Enviar',
-    'About-title' => 'Sobre mim'
+    'About-title' => 'Sobre mim',
+    //
+    'About-me' => 'Sobre mim',
+    'resume-bio' => 'Formado em Sistemas de Informação pela Universidade Federal do Paraná (UTFPR). Atualmente desempenho atividades no campo do desenvolvimento de sistemas web, empregando o framework Laravel e realizando integrações com chatbots e outras plataformas. Minha trajetória acadêmica e experiência no mercado de trabalho convergiram para o aprimoramento das minhas competências em diversas tecnologias e ferramentas. Para além do meu engajamento presente, mantenho uma motivação intrínseca para explorar e dominar novas tecnologias, visando um contínuo crescimento profissional.',
+    'knowledges' => 'Conhecimentos',
+    'knowledges-dev' => 'Conhecimento em linguagens de programação como',
+    'Speciality' => 'Especialidade em',
+    'Experience' => 'Especialidade em',
+    'And' => 'e',
+    'Swagger' => 'documentação Swagger',
+    'BD' => 'Banco de Dados',
+    'Front-resume' => 'front-end com HTML, CSS, framework Tailwind e Vue.js.',
+    'Agile-Methodologies' => 'métodos ágeis como',
+    'Tests' => 'testes utilizando PHPUnit.',
+    'Career' => 'Carreira',
+    'Mobou-resume' => 'Responsável por desenvolver e administrar sistemas web baseados em Laravel, com integrações de chatbots, além de interagir com clientes e equipes de desenvolvimento.',
+    'Hipe-resume' => 'Responsável por desenvolver, junto com a equipe, um sistema em Laravel, criando novos módulos e refatorando módulos antigos do sistema legado em Java.',
+    'Since' => 'Desde junho de',
+    'Developer' => 'Desenvolvedo',
+    'Studies' => 'Estudos',
+    'UTFPR-BSI' => 'Universidade Tecnológica Federal do Paraná | Bacharelado em Sistemas de informação',
+    'UTFPR-duration'=> 'Março de 2018 - Junho de 2023'
 ];
 
 ?>

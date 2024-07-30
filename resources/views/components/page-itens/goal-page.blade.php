@@ -13,7 +13,7 @@
         </div>
         <div class="py-20 bg-sky-100 dark:bg-sky-950 relative before:absolute before:h-full before:w-screen dark:before:bg-sky-950 before:bg-sky-100 before:top-0 before:left-0">
             <div class="relative z-20 pl-12">
-                <h2 class="text-orange-300 font-black text-4xl leading-snug mb-10 dark:text-[#f7d0b6]">{{__('home.Goal-title')}}</h2>
+                <h2 class="text-sky-800 font-black text-4xl leading-snug mb-10 dark:text-[#f7d0b6]">{{__('home.Goal-title')}}</h2>
                 <p class="text-gray-800 dark:text-white text-md">
                     {{__('home.Goal-text')}}
                 </p>
