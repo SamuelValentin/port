@@ -23,6 +23,7 @@
                 <a href="{{ route('index') }}"><span class="px-2">{{__('home.Home')}}</span></a>
                 <a href="{{ route('about') }}"><span class="px-2 border-l">{{__('home.Sobre')}}</span></a>
                 <a href="{{ route('contact') }}"><span class="px-2 border-l">{{__('home.Contato')}}</span></a>
+                <a href="{{ route('projects') }}"><span class="px-2 border-l">{{__('home.Projects')}}</span></a>
             </div>
         </div>
     </div>

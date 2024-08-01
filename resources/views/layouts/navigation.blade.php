@@ -15,6 +15,15 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('categories')" :active="request()->routeIs('categories')">
+                        Categorias
+                    </x-nav-link>
+                    <x-nav-link :href="route('projects')" :active="request()->routeIs('projects')">
+                        Projetos
+                    </x-nav-link>
+                    <x-nav-link id="theme-toggle">
+                        Theme
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -98,3 +107,25 @@
         </div>
     </div>
 </nav>
+
+<script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const rootElement = document.documentElement;
+
+    toggleButton.addEventListener('click', () => {
+        if (rootElement.classList.contains('dark')) {
+            rootElement.classList.remove('dark');
+            localStorage.theme = 'light';
+        } else {
+            rootElement.classList.add('dark');
+            localStorage.theme = 'dark';
+        }
+    });
+
+    // Aplicar o tema baseado na preferência salva do usuário
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        rootElement.classList.add('dark');
+    } else {
+        rootElement.classList.remove('dark');
+    }
+</script>

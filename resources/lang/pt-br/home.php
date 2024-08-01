@@ -5,6 +5,9 @@ return [
     'Sobre' => 'Sobre',
     'Habilidades' => 'Habilidades',
     'Contato' => 'Contato',
+    'Projects' => 'Projetos',
+    'Category' => 'Categoria',
+    'Categories' => 'Categorias',
     'Banner-title' => 'Criando Ideias',
     'Banner-text' => 'Construindo o futuro da web, uma linha de código por vez, mantendo-se atualizado com as tendências e inovações do mercado.',
     'Personal-cargo' => 'Desenvolvedor Web Fullstack',
@@ -44,6 +47,7 @@ return [
     'Studies' => 'Estudos',
     'UTFPR-BSI' => 'Universidade Tecnológica Federal do Paraná | Bacharelado em Sistemas de informação',
     'UTFPR-duration'=> 'Março de 2018 - Junho de 2023'
+
 ];
 
 ?>
