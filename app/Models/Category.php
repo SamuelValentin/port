@@ -10,4 +10,12 @@ class Category extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'type', 'description'];
+
+    /**
+     * Get the projects for the category.
+     */
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
+    }
 }

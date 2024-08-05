@@ -13,7 +13,7 @@
     @vite(['resources/js/app.js'])
     @vite('resources/css/app.css')
 </head>
-<body class="bg-white dark:bg-gray-900 dark:text-white">
+<body class="bg-gray-50 dark:bg-gray-900 dark:text-white">
     @include('components.navbar')
     <main class="main-content position-relative max-height-vh-100 h-100 mt-1 border-radius-lg ">
         @yield('content')
