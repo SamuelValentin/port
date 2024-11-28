@@ -28,6 +28,26 @@
     {{-- Experiencias e Trabalhos --}}
     {{-- @include('components.page-itens.trajectory') --}}
 
+    <div class="p-5">
+        <div class="max-w-2xl mx-auto">
+    
+            <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="images/teste.jpg" alt="">
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">Lâmpada para os meus pés</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="text-blue-700 hover:text-blue-800 focus:ring-4 font-medium text-md text-center inline-flex items-center dark:text-blue-600 dark:hover:text-blue-700">
+                        Leia mais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="flex flex-col items-center mb-5">
         <p class="text-lg text-center my-8 sm:text-2xl lg:text-4xl xl:text-5xl">
             <strong>Encontre-nos</strong>
