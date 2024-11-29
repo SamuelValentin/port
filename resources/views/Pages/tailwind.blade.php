@@ -33,7 +33,7 @@
     
             <div class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
-                    <img class="rounded-t-lg" src="images/teste.jpg" alt="">
+                    <img class="rounded-t-md" src="images/teste.jpg" alt="">
                 </a>
                 <div class="p-5">
                     <a href="#">
@@ -43,6 +43,8 @@
                     <a href="#" class="text-blue-700 hover:text-blue-800 focus:ring-4 font-medium text-md text-center inline-flex items-center dark:text-blue-600 dark:hover:text-blue-700">
                         Leia mais
                     </a>
+                    <span class="rounded-lg py-2 px-2 uppercase bg-ibb-blue font-semibold text-xs text-gray-700 whitespace-nowrap bg-slate-100">Vida Ibb</span>
+                    {{-- <span class="flex bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2">Vida Ibb</span> --}}
                 </div>
             </div>
         </div>
