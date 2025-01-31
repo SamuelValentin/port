@@ -12,6 +12,30 @@ Route::get('/', function () {
     return view('pages.index');
 })->name('index');
 
+Route::get('/tailwind', function () {
+    $new = new stdClass;
+
+    $new->slug = '';
+    $new->title = 'Lâmpada para os meus pés';
+    $new->description = 'Lâmpada para os meus pés';
+    $new->category = 'Igreja Viva';
+    $new->local  = '';
+    $new->image_name = 'teste.jpg';
+    $new->date_published ='há 1 semana';
+    $new->tags ='Vida Ibb';
+    $new->video_embed_url_1 = 'https://www.google.com/search?q=Whats%20is%20love%2010%20hours&sourceid=chrome&ie=UTF-8#';
+    return view('pages.tailwind2', compact('new'));
+})->name('tailwind');
+
+Route::get('/welcome', function (){
+    return view('pages.welcome');
+})->name('welcome');
+
+Route::get('/teste', function () {
+    // return view('teste-vue');
+    return view('pages.vue');
+})->name('teste');
+
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
